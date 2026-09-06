@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>Dépanneur 24 — Dépannage & Remorquage 24h/24 en Île-de-France | Auto, Moto, Camion</title>
+<meta name="description" content="Dépanneur24 : dépannage et remorquage 24h/24 et 7j/7 en Île-de-France. Voiture, moto, camion, utilitaire, engins. Intervention en 30 min à Paris et en petite couronne. Devis gratuit — 07 86 34 58 71." />
+<meta name="keywords" content="dépannage auto Île-de-France, remorquage Paris, dépanneur 24h, dépannage moto, remorquage camion, dépannage batterie Paris, remorquage Lisses, dépannage Essonne" />
+<meta name="robots" content="index,follow,max-image-preview:large" />
+<meta name="theme-color" content="#0b4fa8" />
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%232a5fd0'/%3E%3Crect x='-4' y='40' width='72' height='7' rx='3.5' fill='%23fff' transform='rotate(-19 32 43)'/%3E%3Ccircle cx='16' cy='34' r='5' fill='%23e8b53c'/%3E%3Ctext x='32' y='28' font-family='Helvetica,Arial,sans-serif' font-size='24' font-weight='700' fill='%23fff' text-anchor='middle'%3E24%3C/text%3E%3C/svg%3E" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:title" content="Dépanneur 24 — Dépannage & Remorquage 24h/24 en Île-de-France" />
+<meta property="og:description" content="Panne, accident, batterie, crevaison ? Intervention en 30 min en moyenne partout en Île-de-France. Auto, moto, camion, engins." />
+<meta property="og:image" content="photos/c3-lg.jpg" />
+<link rel="preload" as="image" href="photos/c3-lg.jpg" imagesrcset="photos/c3-sm.jpg 680w, photos/c3-lg.jpg 1100w" imagesizes="(max-width:900px) 94vw, 560px" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="canonical" href="https://depanneur24.fr/" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet" />
+<link rel="preconnect" href="https://unpkg.com" crossorigin="anonymous" />
+<link rel="dns-prefetch" href="https://basemaps.cartocdn.com" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Intervenez-vous 24h/24 et 7j/7 ?","acceptedAnswer":{"@type":"Answer","text":"Oui, nuits, week-ends et jours fériés inclus. L'appel au 07 86 34 58 71 est décroché en moins d'une minute."}},{"@type":"Question","name":"Quel est le délai d'arrivée moyen ?","acceptedAnswer":{"@type":"Answer","text":"Environ 30 minutes dans Paris et la petite couronne, 35 à 60 minutes en grande couronne selon le trafic."}},{"@type":"Question","name":"Prenez-vous en charge motos, camions et engins ?","acceptedAnswer":{"@type":"Answer","text":"Oui : voitures, motos et scooters, utilitaires et camions jusqu'à 3,5 t, quads, buggys et SSV avec treuil et sangles quatre points."}},{"@type":"Question","name":"Comment se passe le tarif ?","acceptedAnswer":{"@type":"Answer","text":"Le tarif est annoncé avant l'intervention selon le véhicule, la distance et l'heure. Facture remise systématiquement."}},{"@type":"Question","name":"Le véhicule est-il assuré pendant le transport ?","acceptedAnswer":{"@type":"Answer","text":"Oui, tous nos transports sont couverts par notre assurance professionnelle, du chargement à la livraison."}}]},{"@type":"Service","serviceType":"Dépannage et remorquage de véhicules","provider":{"@type":"AutomotiveBusiness","name":"Dépanneur24","telephone":"+33786345871"},"areaServed":{"@type":"AdministrativeArea","name":"Île-de-France"},"availableChannel":{"@type":"ServiceChannel","servicePhone":{"@type":"ContactPoint","telephone":"+33786345871","contactType":"Dépannage d'urgence","availableLanguage":["fr"]}}},{"@type":"AutomotiveBusiness","name":"Dépanneur24","description":"Dépannage et remorquage 24h/24, 7j/7 en Île-de-France : voiture, moto, camion, utilitaire et engins.","telephone":"+33786345871","email":"Yass@depanneur24.fr","url":"https://depanneur24.fr/","priceRange":"€€","image":"photos/c3-lg.jpg","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"}],"areaServed":[{"@type":"AdministrativeArea","name":"Île-de-France"},{"@type":"City","name":"Paris"}],"address":{"@type":"PostalAddress","addressRegion":"Île-de-France","addressCountry":"FR"},"geo":{"@type":"GeoCoordinates","latitude":48.8566,"longitude":2.3522},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"327"}}]}
+</script>
+<style>
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: #ffffff; color: #0a1a2f; font-family: Manrope, "Helvetica Neue", Helvetica, sans-serif; overflow-x: hidden; }
+  * { box-sizing: border-box; }
+  a { color: oklch(0.47 0.17 258); text-decoration: none; }
+  a:hover { color: oklch(0.58 0.16 250); }
+  img, video { max-width: 100%; }
+  ::selection { background: oklch(0.47 0.17 258); color: #fff; }
+  @keyframes pulseRing { 0% { box-shadow: 0 0 0 0 oklch(0.47 0.17 258 / 0.5); } 70% { box-shadow: 0 0 0 16px oklch(0.47 0.17 258 / 0); } 100% { box-shadow: 0 0 0 0 oklch(0.47 0.17 258 / 0); } }
+  @keyframes pulseWhite { 0% { box-shadow: 0 0 0 0 rgba(255,255,255,.55); } 70% { box-shadow: 0 0 0 14px rgba(255,255,255,0); } 100% { box-shadow: 0 0 0 0 rgba(255,255,255,0); } }
+  @keyframes floatY { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+  @keyframes floatSlow { 0%,100% { transform: translate(0,0) scale(1); } 50% { transform: translate(18px,-24px) scale(1.06); } }
+  @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(26px); } to { opacity: 1; transform: none; } }
+  @keyframes spinSlow { to { transform: rotate(360deg); } }
+  @keyframes kenburns { 0% { transform: scale(1) translate(0,0); } 100% { transform: scale(1.09) translate(-1.2%,-1.6%); } }
+  @keyframes bounceDown { 0%,100% { transform: translateY(0); opacity: .55; } 50% { transform: translateY(9px); opacity: 1; } }
+  @keyframes beacon { 0%,100% { opacity: .25; } 50% { opacity: 1; } }
+  @keyframes ringOut { 0% { transform: scale(.6); opacity: .7; } 100% { transform: scale(2.4); opacity: 0; } }
+  @keyframes shimmer { 0% { background-position: -180% 0; } 100% { background-position: 180% 0; } }
+  .d24-map-pulse { border-radius: 50%; background: #1d4ed8; box-shadow: 0 0 0 rgba(29,78,216,.6); animation: mapPulse 2.2s infinite; }
+  @keyframes mapPulse { 0% { box-shadow: 0 0 0 0 rgba(29,78,216,.55); } 70% { box-shadow: 0 0 0 22px rgba(29,78,216,0); } 100% { box-shadow: 0 0 0 0 rgba(29,78,216,0); } }
+  .leaflet-container { background: #eaf1fa !important; font-family: Manrope, sans-serif; }
+  .leaflet-popup-content-wrapper { border-radius: 14px; box-shadow: 0 18px 40px rgba(10,26,47,.18); }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+</helmet>
+
+<div style="max-width:100%;overflow-x:hidden;background:#fff">
+
+  <div style="position:fixed;top:0;left:0;right:0;height:3px;z-index:90;background:transparent;pointer-events:none">
+    <div data-progress style="height:100%;width:0%;background:linear-gradient(90deg,oklch(0.47 0.17 258),oklch(0.66 0.15 232));box-shadow:0 0 12px oklch(0.47 0.17 258 / .6);transition:width .12s linear"></div>
+  </div>
+
+  <header style="position:sticky;top:0;z-index:60;backdrop-filter:blur(14px);background:rgba(255,255,255,.88);border-bottom:1px solid oklch(0.47 0.17 258 / .12)">
+    <div style="max-width:1240px;margin:0 auto;padding:13px 20px;display:flex;align-items:center;gap:18px">
+      <a href="#top" aria-label="Dépanneur24 — accueil" style="display:flex;align-items:center;gap:12px;color:#0a1a2f;flex:0 0 auto">
+        <span style="position:relative;width:46px;height:46px;border-radius:15px;background:linear-gradient(140deg,oklch(0.55 0.18 252),oklch(0.36 0.15 264));display:block;overflow:hidden;box-shadow:0 10px 24px oklch(0.47 0.17 258 / .34);flex:0 0 auto">
+          <span style="position:absolute;left:-14%;bottom:26%;width:128%;height:6px;border-radius:4px;background:#fff;transform:rotate(-19deg);opacity:.95"></span>
+          <span style="position:absolute;left:16%;bottom:38%;width:9px;height:9px;border-radius:50%;background:oklch(0.82 0.16 92);transform:rotate(-19deg)"></span>
+          <span style="position:absolute;inset:0;display:grid;place-items:start center;padding-top:5px;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:19px;color:#fff;letter-spacing:-.03em">24</span>
+        </span>
+        <span style="display:flex;flex-direction:column;line-height:1.02">
+          <strong style="font-family:'Space Grotesk',sans-serif;font-size:19px;letter-spacing:-.035em">DÉPANNEUR<span style="color:oklch(0.55 0.18 252)">24</span></strong>
+          <span style="font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:oklch(0.55 0.05 258);font-weight:700;margin-top:2px">Remorquage · Île-de-France</span>
+        </span>
+      </a>
+      <nav style="margin-left:auto;display:none;gap:26px;font-size:14.5px;font-weight:600" data-desktop-nav>
+        <a href="#services" style="color:#26364c">Services</a>
+        <a href="#diagnostic" style="color:#26364c">Diagnostic</a>
+        <a href="#zones" style="color:#26364c">Carte</a>
+        <a href="#realisations" style="color:#26364c">Interventions</a>
+        <a href="#avis" style="color:#26364c">Avis</a>
+      </nav>
+      <a href="tel:+33786345871" style="margin-left:auto;display:inline-flex;align-items:center;gap:9px;min-height:48px;padding:0 18px;border-radius:999px;background:oklch(0.47 0.17 258);color:#fff;font-weight:700;font-size:15px;box-shadow:0 10px 26px oklch(0.47 0.17 258 / .3)" style-hover="transform:translateY(-1px);background:oklch(0.40 0.16 262)" data-tel-cta>
+        <span style="width:9px;height:9px;border-radius:50%;background:#fff;animation:pulseWhite 2.4s infinite"></span>
+        07 86 34 58 71
+      </a>
+      <button type="button" onClick="{{ toggleNav }}" aria-label="Menu" style="display:grid;place-items:center;width:48px;height:48px;flex:0 0 auto;border-radius:13px;border:1px solid oklch(0.47 0.17 258 / .22);background:oklch(0.47 0.17 258 / .06);color:oklch(0.40 0.16 262);font-size:20px;cursor:pointer" data-burger>☰</button>
+    </div>
+    <sc-if value="{{ navOpen }}" hint-placeholder-val="{{ false }}">
+      <nav style="display:flex;flex-direction:column;padding:6px 20px 18px;background:#fff;border-top:1px solid oklch(0.47 0.17 258 / .1)">
+        <a href="#services" onClick="{{ closeNav }}" style="padding:15px 4px;color:#0a1a2f;font-weight:600;border-bottom:1px solid rgba(10,26,47,.08)">Services</a>
+        <a href="#diagnostic" onClick="{{ closeNav }}" style="padding:15px 4px;color:#0a1a2f;font-weight:600;border-bottom:1px solid rgba(10,26,47,.08)">Diagnostic gratuit</a>
+        <a href="#zones" onClick="{{ closeNav }}" style="padding:15px 4px;color:#0a1a2f;font-weight:600;border-bottom:1px solid rgba(10,26,47,.08)">Carte & zones</a>
+        <a href="#realisations" onClick="{{ closeNav }}" style="padding:15px 4px;color:#0a1a2f;font-weight:600;border-bottom:1px solid rgba(10,26,47,.08)">Nos interventions</a>
+        <a href="#avis" onClick="{{ closeNav }}" style="padding:15px 4px;color:#0a1a2f;font-weight:600;border-bottom:1px solid rgba(10,26,47,.08)">Avis clients</a>
+        <a href="mailto:Yass@depanneur24.fr" style="padding:15px 4px;font-weight:700">Yass@depanneur24.fr</a>
+      </nav>
+    </sc-if>
+  </header>
+
+  <section id="top" style="position:relative;overflow:hidden;background:linear-gradient(175deg,#ffffff 0%,#eef4fd 62%,#e3ecfa 100%)">
+    <div style="position:absolute;top:-140px;right:-120px;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,oklch(0.62 0.15 245 / .28),transparent 68%);animation:floatSlow 14s ease-in-out infinite;pointer-events:none"></div>
+    <div style="position:absolute;bottom:-180px;left:-140px;width:460px;height:460px;border-radius:50%;background:radial-gradient(circle,oklch(0.47 0.17 258 / .18),transparent 70%);animation:floatSlow 18s ease-in-out infinite reverse;pointer-events:none"></div>
+
+    <div style="position:relative;z-index:2;max-width:1240px;margin:0 auto;padding:clamp(48px,7vw,86px) 20px clamp(56px,8vw,96px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,330px),1fr));gap:clamp(30px,5vw,64px);align-items:center">
+      <div>
+        <div style="display:inline-flex;align-items:center;gap:10px;padding:8px 15px;border-radius:999px;background:#fff;border:1px solid oklch(0.47 0.17 258 / .2);font-size:13px;font-weight:700;color:oklch(0.40 0.16 262);box-shadow:0 6px 18px oklch(0.47 0.17 258 / .1);animation:fadeUp .7s .05s both">
+          <span style="width:8px;height:8px;border-radius:50%;background:oklch(0.58 0.17 150);animation:pulseRing 2s infinite"></span>
+          <span data-live-status>Dépanneurs disponibles maintenant · 24h/24</span>
+        </div>
+        <h1 style="margin:20px 0 0;font-family:'Space Grotesk',sans-serif;font-weight:700;letter-spacing:-.035em;line-height:1;font-size:clamp(38px,6.6vw,74px);animation:fadeUp .8s .12s both">
+          Dépannage &amp; remorquage <span style="background:linear-gradient(100deg,oklch(0.52 0.18 258),oklch(0.62 0.15 232));-webkit-background-clip:text;background-clip:text;color:transparent">en 30 minutes</span> en Île-de-France
+        </h1>
+        <p style="margin:22px 0 0;max-width:54ch;font-size:clamp(16px,2vw,19.5px);line-height:1.65;color:#3b4b60;animation:fadeUp .8s .2s both">
+          Voiture, moto, camion, utilitaire, engin de loisir. Panne, batterie, crevaison, accident ou véhicule immobilisé : nos camions plateau interviennent jour et nuit, à Paris et dans les 8 départements.
+        </p>
+        <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:30px;animation:fadeUp .8s .28s both">
+          <a href="tel:+33786345871" style="display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:14px;background:oklch(0.47 0.17 258);color:#fff;font-weight:700;font-size:17px;box-shadow:0 16px 38px oklch(0.47 0.17 258 / .32)" style-hover="transform:translateY(-2px);box-shadow:0 22px 48px oklch(0.47 0.17 258 / .4)">Appeler 07 86 34 58 71</a>
+          <a href="#diagnostic" style="display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 24px;border-radius:14px;border:1.5px solid oklch(0.47 0.17 258 / .3);background:#fff;color:oklch(0.40 0.16 262);font-weight:700;font-size:17px" style-hover="background:oklch(0.47 0.17 258 / .07);transform:translateY(-2px)">Diagnostic gratuit en 20 s</a>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:18px;animation:fadeUp .8s .34s both">
+          <a href="mailto:Yass@depanneur24.fr?subject=Demande%20de%20d%C3%A9pannage&amp;body=Bonjour%2C%20je%20suis%20immobilis%C3%A9%20%C3%A0%20..." style="font-size:14.5px;font-weight:600;color:#3b4b60">✉️ Yass@depanneur24.fr</a>
+          <span style="color:#c3cede">·</span>
+          <a href="https://wa.me/33786345871?text=Bonjour%2C%20j%27ai%20besoin%20d%27un%20d%C3%A9pannage" target="_blank" rel="noopener" style="font-size:14.5px;font-weight:600;color:#3b4b60">💬 WhatsApp</a>
+        </div>
+        <dl style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:14px;margin:34px 0 0;padding:22px 0 0;border-top:1px solid oklch(0.47 0.17 258 / .16);animation:fadeUp .8s .4s both">
+          <div>
+            <dd style="margin:0;font-family:'Space Grotesk',sans-serif;font-size:clamp(26px,3.4vw,38px);font-weight:700;letter-spacing:-.03em;color:oklch(0.40 0.16 262)"><span data-count="30">0</span> min</dd>
+            <dt style="font-size:12.5px;color:#5b6b81;margin-top:3px">Délai moyen</dt>
+          </div>
+          <div>
+            <dd style="margin:0;font-family:'Space Grotesk',sans-serif;font-size:clamp(26px,3.4vw,38px);font-weight:700;letter-spacing:-.03em;color:oklch(0.40 0.16 262)"><span data-count="12400">0</span>+</dd>
+            <dt style="font-size:12.5px;color:#5b6b81;margin-top:3px">Interventions</dt>
+          </div>
+          <div>
+            <dd style="margin:0;font-family:'Space Grotesk',sans-serif;font-size:clamp(26px,3.4vw,38px);font-weight:700;letter-spacing:-.03em;color:oklch(0.40 0.16 262)"><span data-count="8">0</span> dép.</dd>
+            <dt style="font-size:12.5px;color:#5b6b81;margin-top:3px">Toute l'IDF</dt>
+          </div>
+          <div>
+            <dd style="margin:0;font-family:'Space Grotesk',sans-serif;font-size:clamp(26px,3.4vw,38px);font-weight:700;letter-spacing:-.03em;color:oklch(0.40 0.16 262)">4,9<span style="font-size:.5em">/5</span></dd>
+            <dt style="font-size:12.5px;color:#5b6b81;margin-top:3px">327 avis</dt>
+          </div>
+        </dl>
+      </div>
+
+      <div style="position:relative;animation:fadeUp .9s .18s both">
+        <div data-tilt style="position:relative;border-radius:26px;overflow:hidden;box-shadow:0 40px 90px oklch(0.30 0.1 258 / .28);border:6px solid #fff;will-change:transform;transform-style:preserve-3d;transition:box-shadow .4s">
+          <img src="photos/c3-lg.jpg" srcset="photos/c3-sm.jpg 680w, photos/c3-lg.jpg 1100w" sizes="(max-width:900px) 94vw, 560px" alt="Camion plateau Dépanneur24 chargeant une Citroën C3 lors d'un remorquage en Île-de-France" width="721" height="1260" loading="eager" decoding="async" fetchpriority="high" style="display:block;width:100%;height:clamp(360px,52vw,560px);object-fit:cover;object-position:center 42%;animation:kenburns 22s ease-in-out infinite alternate" />
+          <span style="position:absolute;top:16px;right:16px;display:flex;gap:5px;align-items:center;padding:7px 12px;border-radius:999px;background:rgba(10,26,47,.55);backdrop-filter:blur(6px);font-size:11.5px;font-weight:800;letter-spacing:.1em;color:#fff;text-transform:uppercase">
+            <span style="width:7px;height:7px;border-radius:50%;background:#ff5252;animation:beacon 1.1s infinite"></span>
+            <span style="width:7px;height:7px;border-radius:50%;background:#4d9bff;animation:beacon 1.1s .55s infinite"></span>
+            En intervention
+          </span>
+          <div style="position:absolute;inset:auto 0 0 0;padding:44px 20px 18px;background:linear-gradient(180deg,transparent,oklch(0.25 0.08 258 / .78));color:#fff;pointer-events:none">
+            <strong style="font-family:'Space Grotesk',sans-serif;font-size:16px">Remorquage plateau · Île-de-France</strong>
+            <div style="font-size:13px;opacity:.9;margin-top:2px">Véhicule chargé, sanglé et assuré pendant le transport</div>
+          </div>
+        </div>
+        <div data-parallax="-0.05" style="position:absolute;left:-6px;bottom:-26px;display:flex;align-items:center;gap:12px;padding:14px 18px;border-radius:18px;background:#fff;box-shadow:0 20px 46px oklch(0.30 0.1 258 / .22);will-change:transform">
+          <span style="width:42px;height:42px;border-radius:50%;background:oklch(0.47 0.17 258 / .12);display:grid;place-items:center;font-size:19px;animation:floatY 4s ease-in-out infinite">🚚</span>
+          <span style="font-size:13.5px;line-height:1.35;color:#3b4b60"><strong style="display:block;color:#0a1a2f;font-size:15px">3 camions en service</strong>Paris · Essonne · 92 / 93 / 94</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:flex;justify-content:center;padding:0 20px 14px">
+      <a href="#services" aria-label="Découvrir nos services" style="display:grid;place-items:center;width:40px;height:40px;border-radius:50%;border:1px solid oklch(0.47 0.17 258 / .25);color:oklch(0.47 0.17 258);font-size:16px;animation:bounceDown 2.2s ease-in-out infinite">↓</a>
+    </div>
+
+    <div style="overflow:hidden;border-top:1px solid oklch(0.47 0.17 258 / .14);background:#fff">
+      <div style="display:flex;width:max-content;animation:marquee 36s linear infinite;padding:13px 0;gap:44px;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:oklch(0.45 0.06 258);font-weight:700">
+        <span>Paris 75 · Hauts-de-Seine 92 · Seine-Saint-Denis 93 · Val-de-Marne 94 · Yvelines 78 · Essonne 91 · Val-d'Oise 95 · Seine-et-Marne 77 · Périphérique · A86 · A4 · A1 · Roissy CDG · Orly ·</span>
+        <span>Paris 75 · Hauts-de-Seine 92 · Seine-Saint-Denis 93 · Val-de-Marne 94 · Yvelines 78 · Essonne 91 · Val-d'Oise 95 · Seine-et-Marne 77 · Périphérique · A86 · A4 · A1 · Roissy CDG · Orly ·</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" style="max-width:1240px;margin:0 auto;padding:clamp(60px,8vw,110px) 20px">
+    <div data-reveal style="opacity:0;transform:translateY(22px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1)">
+      <span style="font-size:12.5px;letter-spacing:.2em;text-transform:uppercase;color:oklch(0.52 0.18 258);font-weight:800">Nos services</span>
+      <h2 style="margin:14px 0 0;font-family:'Space Grotesk',sans-serif;font-size:clamp(29px,4.8vw,52px);font-weight:700;letter-spacing:-.03em;line-height:1.04;max-width:22ch">Tous les véhicules, toutes les pannes, à toute heure</h2>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:20px;margin-top:42px">
+      <sc-for list="{{ vehicles }}" as="v" hint-placeholder-count="3">
+        <article data-reveal style="opacity:0;transform:translateY(22px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1),box-shadow .4s,border-color .4s;border:1px solid oklch(0.47 0.17 258 / .14);border-radius:24px;overflow:hidden;background:#fff;box-shadow:0 14px 34px oklch(0.30 0.1 258 / .08)" style-hover="border-color:oklch(0.47 0.17 258 / .45);box-shadow:0 26px 60px oklch(0.30 0.1 258 / .18);transform:translateY(-6px)">
+          <div style="position:relative;height:250px;background:#eaf1fa">
+            <img src="{{ v.ph.src }}" srcset="{{ v.ph.set }}" sizes="(max-width:900px) 94vw, 390px" alt="{{ v.alt }}" loading="lazy" decoding="async" style="display:block;width:100%;height:100%;object-fit:cover;object-position:{{ v.pos }};transition:transform .9s cubic-bezier(.2,.7,.2,1)" style-hover="transform:scale(1.08)" />
+            <span style="position:absolute;top:14px;left:14px;padding:7px 13px;border-radius:999px;background:rgba(255,255,255,.94);font-size:12.5px;font-weight:800;color:oklch(0.40 0.16 262);box-shadow:0 6px 16px rgba(10,26,47,.16)">{{ v.badge }}</span>
+          </div>
+          <div style="padding:22px 22px 26px">
+            <h3 style="margin:0;font-family:'Space Grotesk',sans-serif;font-size:21px;letter-spacing:-.02em">{{ v.title }}</h3>
+            <p style="margin:10px 0 0;font-size:15px;line-height:1.6;color:#4a5a70">{{ v.text }}</p>
+            <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:16px">
+              <sc-for list="{{ v.tags }}" as="t" hint-placeholder-count="3">
+                <span style="font-size:12.5px;padding:6px 11px;border-radius:999px;background:oklch(0.47 0.17 258 / .08);color:oklch(0.40 0.16 262);font-weight:600">{{ t }}</span>
+              </sc-for>
+            </div>
+          </div>
+        </article>
+      </sc-for>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,225px),1fr));gap:14px;margin-top:20px">
+      <sc-for list="{{ services }}" as="s" hint-placeholder-count="8">
+        <div data-reveal style="opacity:0;transform:translateY(18px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1),background .3s;display:flex;gap:14px;align-items:flex-start;padding:20px;border-radius:18px;background:#f4f8fd;border:1px solid oklch(0.47 0.17 258 / .1)" style-hover="background:#eaf1fa">
+          <span style="flex:0 0 auto;width:38px;height:38px;border-radius:11px;display:grid;place-items:center;background:oklch(0.47 0.17 258);color:#fff;font-size:15px;font-weight:800">{{ s.n }}</span>
+          <div>
+            <h3 style="margin:0;font-size:16.5px;font-family:'Space Grotesk',sans-serif;letter-spacing:-.01em">{{ s.title }}</h3>
+            <p style="margin:6px 0 0;font-size:14px;line-height:1.55;color:#4a5a70">{{ s.text }}</p>
+          </div>
+        </div>
+      </sc-for>
+    </div>
+  </section>
+
+  <section id="video" style="background:linear-gradient(180deg,#0a2a5c,#0a1a2f);color:#fff;position:relative;overflow:hidden">
+    <div style="position:absolute;top:-120px;left:-100px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,oklch(0.62 0.15 245 / .3),transparent 70%);animation:floatSlow 16s ease-in-out infinite;pointer-events:none"></div>
+    <div style="position:relative;max-width:1240px;margin:0 auto;padding:clamp(60px,8vw,104px) 20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:clamp(26px,4vw,54px);align-items:center">
+      <div data-reveal style="opacity:0;transform:translateY(22px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1)">
+        <span style="font-size:12.5px;letter-spacing:.2em;text-transform:uppercase;color:oklch(0.78 0.12 235);font-weight:800">En vidéo</span>
+        <h2 style="margin:14px 0 0;font-family:'Space Grotesk',sans-serif;font-size:clamp(28px,4.4vw,48px);font-weight:700;letter-spacing:-.03em;line-height:1.05">Le chargement, filmé sur place</h2>
+        <p style="margin:16px 0 0;font-size:16.5px;line-height:1.65;color:#c9d8ee;max-width:44ch">Nos vraies interventions, filmées par l'équipe : treuil, sangles à cliquet, cales de roue. Un véhicule chargé proprement, c'est un véhicule livré sans dégât.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:26px">
+          <a href="tel:+33786345871" style="display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 24px;border-radius:14px;background:#fff;color:oklch(0.40 0.16 262);font-weight:800;font-size:16px" style-hover="transform:translateY(-2px)">Demander une intervention</a>
+          <a href="#realisations" style="display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 22px;border-radius:14px;border:1px solid rgba(255,255,255,.28);color:#fff;font-weight:600;font-size:16px" style-hover="background:rgba(255,255,255,.1)">Voir les photos</a>
+        </div>
+      </div>
+      <div data-reveal style="opacity:0;transform:translateY(22px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr));gap:16px">
+        <sc-for list="{{ videos }}" as="vid" hint-placeholder-count="2">
+          <figure style="margin:0;position:relative;border-radius:22px;overflow:hidden;border:1px solid rgba(255,255,255,.16);box-shadow:0 26px 60px rgba(0,0,0,.4);background:#0a1a2f">
+            <video ref="{{ vid.ref }}" onClick="{{ vid.onTap }}" playsinline preload="none" style="display:block;width:100%;height:clamp(280px,42vw,420px);object-fit:cover;cursor:pointer;background:#0a1a2f"></video>
+            <button type="button" data-play onClick="{{ vid.onTap }}" aria-label="Lire la vidéo" style="position:absolute;inset:0;display:grid;place-items:center;border:none;background:linear-gradient(160deg,rgba(10,42,92,.5),rgba(6,16,32,.6));cursor:pointer">
+              <span style="width:64px;height:64px;border-radius:50%;background:rgba(255,255,255,.94);color:oklch(0.40 0.16 262);display:grid;place-items:center;font-size:22px;box-shadow:0 14px 34px rgba(0,0,0,.4);animation:floatY 3.4s ease-in-out infinite">▶</span>
+            </button>
+            <figcaption style="position:absolute;inset:auto 0 0 0;padding:34px 14px 13px;background:linear-gradient(180deg,transparent,rgba(4,12,24,.85));font-size:13px;font-weight:600;pointer-events:none">{{ vid.label }}</figcaption>
+          </figure>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <section id="diagnostic" style="background:#f4f8fd;border-top:1px solid oklch(0.47 0.17 258 / .1)">
+    <div style="max-width:1240px;margin:0 auto;padding:clamp(60px,8vw,104px) 20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,330px),1fr));gap:clamp(28px,5vw,60px);align-items:start">
+      <div data-reveal style="opacity:0;transform:translateY(22px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1)">
+        <span style="font-size:12.5px;letter-spacing:.2em;text-transform:uppercase;color:oklch(0.52 0.18 258);font-weight:800">Diagnostic en ligne</span>
+        <h2 style="margin:14px 0 0;font-family:'Space Grotesk',sans-serif;font-size:clamp(28px,4.4vw,46px);font-weight:700;letter-spacing:-.03em;line-height:1.05">Dites-nous ce qui se passe, on vous dit quoi faire</h2>
+        <p style="margin:18px 0 0;font-size:16.5px;line-height:1.65;color:#4a5a70;max-width:46ch">Deux clics : type de véhicule, symptôme. Vous obtenez l'intervention adaptée, le délai estimé et la marche à suivre en attendant le camion. Gratuit, sans engagement.</p>
+        <div style="display:flex;align-items:center;gap:14px;margin-top:24px;padding:18px;border-radius:18px;background:#fff;border:1px solid oklch(0.47 0.17 258 / .14);box-shadow:0 12px 30px oklch(0.30 0.1 258 / .08)">
+          <span style="width:44px;height:44px;border-radius:50%;background:oklch(0.47 0.17 258 / .1);display:grid;place-items:center;font-size:20px;animation:floatY 4s ease-in-out infinite">🛠️</span>
+          <p style="margin:0;font-size:14.5px;line-height:1.5;color:#3b4b60">Urgence sur voie rapide ou périphérique ? Gilet, triangle, puis appelez le <a href="tel:+33786345871" style="font-weight:800">07 86 34 58 71</a>.</p>
+        </div>
+      </div>
+
+      <div data-reveal style="opacity:0;transform:translateY(22px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1);padding:clamp(20px,3vw,30px);border-radius:26px;background:#fff;border:1px solid oklch(0.47 0.17 258 / .16);box-shadow:0 30px 70px oklch(0.30 0.1 258 / .14)">
+        <p style="margin:0 0 12px;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:#5b6b81;font-weight:800">1 · Votre véhicule</p>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(92px,1fr));gap:10px">
+          <sc-for list="{{ vehicleChoices }}" as="c" hint-placeholder-count="4">
+            <button type="button" onClick="{{ c.onSelect }}" style="{{ c.style }}">
+              <span style="font-size:22px">{{ c.icon }}</span>
+              <span style="font-size:13.5px;font-weight:700">{{ c.label }}</span>
+            </button>
+          </sc-for>
+        </div>
+
+        <p style="margin:24px 0 12px;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:#5b6b81;font-weight:800">2 · Le symptôme</p>
+        <div style="display:flex;flex-wrap:wrap;gap:9px">
+          <sc-for list="{{ symptomChoices }}" as="s" hint-placeholder-count="8">
+            <button type="button" onClick="{{ s.onSelect }}" style="{{ s.style }}">{{ s.label }}</button>
+          </sc-for>
+        </div>
+
+        <sc-if value="{{ diag }}" hint-placeholder-val="{{ false }}">
+          <div style="margin-top:26px;padding:22px;border-radius:20px;background:linear-gradient(150deg,oklch(0.47 0.17 258 / .1),oklch(0.62 0.15 232 / .08));border:1px solid oklch(0.47 0.17 258 / .3);animation:fadeUp .5s both">
+            <p style="margin:0;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:oklch(0.42 0.16 260);font-weight:800">Intervention recommandée</p>
+            <h3 style="margin:8px 0 0;font-family:'Space Grotesk',sans-serif;font-size:22px;letter-spacing:-.02em">{{ diag.title }}</h3>
+            <p style="margin:10px 0 0;font-size:15px;line-height:1.6;color:#33455c">{{ diag.text }}</p>
+            <div style="display:flex;flex-wrap:wrap;gap:9px;margin-top:16px">
+              <span style="font-size:13px;padding:7px 12px;border-radius:999px;background:#fff;font-weight:700;color:oklch(0.40 0.16 262);border:1px solid oklch(0.47 0.17 258 / .18)">⏱ {{ diag.eta }}</span>
+              <span style="font-size:13px;padding:7px 12px;border-radius:999px;background:#fff;font-weight:700;color:oklch(0.40 0.16 262);border:1px solid oklch(0.47 0.17 258 / .18)">🚚 {{ diag.mode }}</span>
+              <span style="font-size:13px;padding:7px 12px;border-radius:999px;background:#fff;font-weight:700;color:oklch(0.40 0.16 262);border:1px solid oklch(0.47 0.17 258 / .18)">💬 Devis avant intervention</span>
+            </div>
+            <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:20px">
+              <a href="tel:+33786345871" style="display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 22px;border-radius:13px;background:oklch(0.47 0.17 258);color:#fff;font-weight:700">Appeler maintenant</a>
+              <a href="{{ diag.wa }}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 20px;border-radius:13px;background:#25D366;color:#083a1c;font-weight:700">WhatsApp</a>
+              <a href="{{ diag.mailto }}" style="display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 20px;border-radius:13px;border:1px solid oklch(0.47 0.17 258 / .3);color:oklch(0.40 0.16 262);font-weight:700">E-mail</a>
+            </div>
+          </div>
+        </sc-if>
+      </div>
+    </div>
+  </section>
+
+  <section id="zones" style="max-width:1240px;margin:0 auto;padding:clamp(60px,8vw,110px) 20px">
+    <div data-reveal style="opacity:0;transform:translateY(22px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1);display:flex;flex-wrap:wrap;gap:20px;align-items:flex-end;justify-content:space-between">
+      <div>
+        <span style="font-size:12.5px;letter-spacing:.2em;text-transform:uppercase;color:oklch(0.52 0.18 258);font-weight:800">Carte interactive</span>
+        <h2 style="margin:14px 0 0;font-family:'Space Grotesk',sans-serif;font-size:clamp(29px,4.8vw,52px);font-weight:700;letter-spacing:-.03em;line-height:1.04">Paris et toute l'Île-de-France</h2>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center">
+        <button type="button" onClick="{{ locate }}" style="display:inline-flex;align-items:center;gap:9px;min-height:50px;padding:0 20px;border-radius:14px;background:oklch(0.47 0.17 258);color:#fff;font-weight:700;font-size:15px;border:none;cursor:pointer;box-shadow:0 12px 30px oklch(0.47 0.17 258 / .28)" style-hover="transform:translateY(-2px)">📍 Me localiser</button>
+        <a href="{{ mapsLink }}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;min-height:50px;padding:0 18px;border-radius:14px;border:1.5px solid oklch(0.47 0.17 258 / .3);font-weight:700;font-size:15px">Ouvrir dans Maps</a>
+      </div>
+    </div>
+
+    <sc-if value="{{ geoMsg }}" hint-placeholder-val="{{ false }}">
+      <div style="margin-top:18px;padding:16px 18px;border-radius:16px;background:oklch(0.47 0.17 258 / .07);border:1px solid oklch(0.47 0.17 258 / .22);font-size:14.5px;line-height:1.55;color:#26364c;animation:fadeUp .4s both">{{ geoMsg }}</div>
+    </sc-if>
+
+    <div data-reveal style="opacity:0;transform:translateY(22px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1);margin-top:26px;border-radius:26px;overflow:hidden;border:1px solid oklch(0.47 0.17 258 / .18);position:relative;box-shadow:0 24px 60px oklch(0.30 0.1 258 / .14)">
+      <div ref="{{ mapRef }}" style="width:100%;height:clamp(340px,52vw,560px);background:#eaf1fa"></div>
+      <div style="position:absolute;left:16px;bottom:16px;z-index:400;display:flex;flex-wrap:wrap;gap:8px;pointer-events:none">
+        <span style="font-size:12.5px;padding:8px 13px;border-radius:999px;background:rgba(255,255,255,.94);border:1px solid oklch(0.47 0.17 258 / .18);font-weight:700;color:oklch(0.40 0.16 262)">🔵 Secteur couvert 24h/24</span>
+        <span style="font-size:12.5px;padding:8px 13px;border-radius:999px;background:rgba(255,255,255,.94);border:1px solid oklch(0.47 0.17 258 / .18);font-weight:700;color:oklch(0.40 0.16 262)">Rayon 35 km autour de Paris</span>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(50%,148px),1fr));gap:10px;margin-top:16px">
+      <sc-for list="{{ departments }}" as="d" hint-placeholder-count="8">
+        <button type="button" onClick="{{ d.onFly }}" style="text-align:left;cursor:pointer;padding:14px 16px;border-radius:14px;background:#fff;border:1px solid oklch(0.47 0.17 258 / .16);transition:all .25s;font-family:Manrope,sans-serif" style-hover="border-color:oklch(0.47 0.17 258 / .5);transform:translateY(-3px);box-shadow:0 14px 30px oklch(0.30 0.1 258 / .14)">
+          <strong style="font-family:'Space Grotesk',sans-serif;font-size:15px;color:oklch(0.40 0.16 262)">{{ d.code }}</strong>
+          <div style="font-size:13.5px;color:#4a5a70;margin-top:3px">{{ d.name }}</div>
+          <div style="font-size:12.5px;color:oklch(0.52 0.18 258);margin-top:6px;font-weight:700">≈ {{ d.eta }}</div>
+        </button>
+      </sc-for>
+    </div>
+  </section>
+
+  <section id="realisations" style="background:#f4f8fd;border-top:1px solid oklch(0.47 0.17 258 / .1)">
+    <div style="max-width:1240px;margin:0 auto;padding:clamp(60px,8vw,110px) 20px">
+      <div data-reveal style="opacity:0;transform:translateY(22px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1)">
+        <span style="font-size:12.5px;letter-spacing:.2em;text-transform:uppercase;color:oklch(0.52 0.18 258);font-weight:800">Sur le terrain</span>
+        <h2 style="margin:14px 0 0;font-family:'Space Grotesk',sans-serif;font-size:clamp(29px,4.8vw,52px);font-weight:700;letter-spacing:-.03em;line-height:1.04">Nos interventions en photos</h2>
+        <p style="margin:16px 0 0;max-width:52ch;font-size:16px;line-height:1.6;color:#4a5a70">Photos réelles de nos camions et de nos chantiers. Cliquez sur une photo pour l'agrandir en plein écran.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:16px;margin-top:38px">
+        <sc-for list="{{ gallery }}" as="g" hint-placeholder-count="6">
+          <figure data-reveal onClick="{{ g.onZoom }}" style="opacity:0;transform:translateY(20px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1),box-shadow .35s;margin:0;position:relative;border-radius:22px;overflow:hidden;background:#fff;border:1px solid oklch(0.47 0.17 258 / .14);cursor:zoom-in;box-shadow:0 14px 34px oklch(0.30 0.1 258 / .08)" style-hover="transform:translateY(-6px);box-shadow:0 28px 64px oklch(0.30 0.1 258 / .2)">
+            <div style="position:relative;height:clamp(260px,34vw,340px);background:#eaf1fa">
+              <img src="{{ g.ph.src }}" srcset="{{ g.ph.set }}" sizes="(max-width:900px) 94vw, 380px" alt="{{ g.alt }}" loading="lazy" decoding="async" style="display:block;width:100%;height:100%;object-fit:cover;object-position:{{ g.pos }};transition:transform .8s cubic-bezier(.2,.7,.2,1)" style-hover="transform:scale(1.07)" />
+              <span style="position:absolute;top:12px;right:12px;width:38px;height:38px;border-radius:11px;display:grid;place-items:center;background:rgba(255,255,255,.92);color:oklch(0.40 0.16 262);font-size:16px;font-weight:700">⤢</span>
+            </div>
+            <figcaption style="padding:15px 18px;font-size:14.5px;font-weight:700;color:#0a1a2f">{{ g.label }}<span style="display:block;font-weight:500;font-size:13px;color:#5b6b81;margin-top:2px">{{ g.sub }}</span></figcaption>
+          </figure>
+        </sc-for>
+      </div>
+      <p style="margin:22px 0 0;font-size:13.5px;color:#5b6b81">Vous avez d'autres photos d'intervention ? Envoyez-les à <a href="mailto:Yass@depanneur24.fr" style="font-weight:700">Yass@depanneur24.fr</a> et elles s'ajoutent à cette galerie.</p>
+    </div>
+  </section>
+
+  <section style="max-width:1240px;margin:0 auto;padding:clamp(52px,7vw,96px) 20px">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:16px">
+      <sc-for list="{{ steps }}" as="p" hint-placeholder-count="4">
+        <div data-reveal style="opacity:0;transform:translateY(20px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1);padding:26px;border-radius:20px;border:1px solid oklch(0.47 0.17 258 / .14);background:linear-gradient(170deg,#ffffff,#f4f8fd)">
+          <div style="font-family:'Space Grotesk',sans-serif;font-size:42px;font-weight:700;letter-spacing:-.04em;color:oklch(0.47 0.17 258 / .35)">{{ p.n }}</div>
+          <h3 style="margin:6px 0 0;font-size:18px;font-family:'Space Grotesk',sans-serif;letter-spacing:-.02em">{{ p.title }}</h3>
+          <p style="margin:8px 0 0;font-size:14.5px;line-height:1.6;color:#4a5a70">{{ p.text }}</p>
+        </div>
+      </sc-for>
+    </div>
+  </section>
+
+  <section id="avis" style="background:#f4f8fd;border-top:1px solid oklch(0.47 0.17 258 / .1)">
+    <div style="max-width:1240px;margin:0 auto;padding:clamp(60px,8vw,104px) 20px">
+      <div data-reveal style="opacity:0;transform:translateY(22px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1);display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+        <h2 style="margin:0;font-family:'Space Grotesk',sans-serif;font-size:clamp(27px,4.4vw,46px);font-weight:700;letter-spacing:-.03em">Ils nous ont appelés à 3 h du matin</h2>
+        <span style="padding:9px 15px;border-radius:999px;background:oklch(0.47 0.17 258 / .1);color:oklch(0.40 0.16 262);font-weight:800;font-size:14px">★★★★★ 4,9/5 · 327 avis</span>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:16px;margin-top:34px">
+        <sc-for list="{{ reviews }}" as="r" hint-placeholder-count="3">
+          <blockquote data-reveal style="opacity:0;transform:translateY(20px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1);margin:0;padding:26px;border-radius:20px;background:#fff;border:1px solid oklch(0.47 0.17 258 / .14);box-shadow:0 14px 34px oklch(0.30 0.1 258 / .07)">
+            <div style="color:oklch(0.52 0.18 258);font-size:15px;letter-spacing:.14em">★★★★★</div>
+            <p style="margin:14px 0 0;font-size:15.5px;line-height:1.65;color:#26364c">{{ r.text }}</p>
+            <footer style="margin-top:18px;display:flex;align-items:center;gap:12px">
+              <span style="width:40px;height:40px;border-radius:50%;background:oklch(0.47 0.17 258 / .12);display:grid;place-items:center;font-weight:800;font-family:'Space Grotesk',sans-serif;color:oklch(0.40 0.16 262)">{{ r.initial }}</span>
+              <span style="font-size:13.5px;color:#5b6b81"><strong style="color:#0a1a2f;display:block;font-size:14.5px">{{ r.name }}</strong>{{ r.city }}</span>
+            </footer>
+          </blockquote>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <section style="max-width:900px;margin:0 auto;padding:clamp(60px,8vw,104px) 20px">
+    <h2 data-reveal style="opacity:0;transform:translateY(20px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1);margin:0 0 24px;font-family:'Space Grotesk',sans-serif;font-size:clamp(27px,4.4vw,44px);font-weight:700;letter-spacing:-.03em">Questions fréquentes</h2>
+    <sc-for list="{{ faqs }}" as="f" hint-placeholder-count="6">
+      <div style="border-bottom:1px solid oklch(0.47 0.17 258 / .16)">
+        <button type="button" onClick="{{ f.onToggle }}" style="width:100%;display:flex;align-items:center;gap:16px;text-align:left;min-height:64px;padding:18px 4px;background:none;border:none;color:#0a1a2f;font-family:'Space Grotesk',sans-serif;font-size:clamp(16px,2.1vw,19px);font-weight:600;cursor:pointer">
+          <span style="flex:1">{{ f.q }}</span>
+          <span style="flex:0 0 auto;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:oklch(0.47 0.17 258 / .1);color:oklch(0.40 0.16 262);font-size:18px">{{ f.sign }}</span>
+        </button>
+        <sc-if value="{{ f.open }}" hint-placeholder-val="{{ false }}">
+          <p style="margin:0;padding:0 4px 24px;font-size:15.5px;line-height:1.7;color:#4a5a70;max-width:70ch;animation:fadeUp .4s both">{{ f.a }}</p>
+        </sc-if>
+      </div>
+    </sc-for>
+  </section>
+
+  <section id="contact" style="position:relative;overflow:hidden;background:linear-gradient(150deg,oklch(0.47 0.17 258),oklch(0.33 0.14 262));color:#fff">
+    <div style="position:absolute;top:-160px;right:-120px;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.16),transparent 68%);animation:floatSlow 15s ease-in-out infinite;pointer-events:none"></div>
+    <div style="position:relative;z-index:2;max-width:1000px;margin:0 auto;padding:clamp(60px,8vw,110px) 20px;text-align:center">
+      <h2 style="margin:0;font-family:'Space Grotesk',sans-serif;font-size:clamp(30px,5.4vw,60px);font-weight:700;letter-spacing:-.035em;line-height:1.03">Immobilisé&nbsp;? On arrive.</h2>
+      <p style="margin:18px auto 0;max-width:52ch;font-size:clamp(16px,2.1vw,19px);line-height:1.6;color:#dce8fa">Un appel, une adresse, un véhicule. Nous vous confirmons le délai exact et un tarif annoncé à l'avance — 24h/24, 7j/7, jours fériés compris.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:32px">
+        <a href="tel:+33786345871" style="display:inline-flex;align-items:center;justify-content:center;min-height:58px;padding:0 30px;border-radius:15px;background:#fff;color:oklch(0.40 0.16 262);font-weight:800;font-size:18px;box-shadow:0 18px 44px rgba(0,0,0,.22)" style-hover="transform:translateY(-2px)">📞 07 86 34 58 71</a>
+        <a href="https://wa.me/33786345871?text=Bonjour%2C%20j%27ai%20besoin%20d%27un%20d%C3%A9pannage" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;justify-content:center;min-height:58px;padding:0 26px;border-radius:15px;background:#25D366;color:#083a1c;font-weight:800;font-size:17px" style-hover="transform:translateY(-2px)">💬 WhatsApp</a>
+        <a href="mailto:Yass@depanneur24.fr?subject=Demande%20d%27intervention%20-%20D%C3%A9panneur24" style="display:inline-flex;align-items:center;justify-content:center;min-height:58px;padding:0 26px;border-radius:15px;border:1.5px solid rgba(255,255,255,.5);color:#fff;font-weight:700;font-size:17px" style-hover="background:rgba(255,255,255,.14)">✉️ Yass@depanneur24.fr</a>
+      </div>
+      <p style="margin:26px 0 0;font-size:13.5px;color:#c9d8ee">Dépanneurs agréés · Camions plateau &amp; moto · Véhicules assurés pendant le transport</p>
+    </div>
+  </section>
+
+  <footer style="background:#0a1a2f;color:#dbe6f5">
+    <div style="max-width:1240px;margin:0 auto;padding:46px 20px 100px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));gap:30px">
+      <div>
+        <span style="display:flex;align-items:center;gap:12px">
+          <span style="position:relative;width:44px;height:44px;border-radius:14px;background:linear-gradient(140deg,oklch(0.60 0.17 250),oklch(0.38 0.15 264));display:block;overflow:hidden;flex:0 0 auto">
+            <span style="position:absolute;left:-14%;bottom:26%;width:128%;height:6px;border-radius:4px;background:#fff;transform:rotate(-19deg);opacity:.95"></span>
+            <span style="position:absolute;left:16%;bottom:38%;width:9px;height:9px;border-radius:50%;background:oklch(0.82 0.16 92);transform:rotate(-19deg)"></span>
+            <span style="position:absolute;inset:0;display:grid;place-items:start center;padding-top:5px;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:18px;color:#fff;letter-spacing:-.03em">24</span>
+          </span>
+          <strong style="font-family:'Space Grotesk',sans-serif;font-size:19px;color:#fff;letter-spacing:-.035em">DÉPANNEUR<span style="color:oklch(0.72 0.14 240)">24</span></strong>
+        </span>
+        <p style="margin:14px 0 0;font-size:14px;line-height:1.6;color:#9db1cc;max-width:32ch">Dépannage, remorquage et transport de véhicules 24h/24 en Île-de-France. Auto, moto, camion, utilitaire, engins.</p>
+      </div>
+      <div>
+        <p style="margin:0 0 12px;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:#7d93b2;font-weight:800">Contact</p>
+        <p style="margin:0;font-size:15px;line-height:1.9"><a href="tel:+33786345871" style="color:#a8c6f2">07 86 34 58 71</a><br /><a href="mailto:Yass@depanneur24.fr" style="color:#a8c6f2">Yass@depanneur24.fr</a></p>
+      </div>
+      <div>
+        <p style="margin:0 0 12px;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:#7d93b2;font-weight:800">Services</p>
+        <p style="margin:0;font-size:14.5px;line-height:1.9;color:#9db1cc">Remorquage · Batterie<br />Crevaison · Carburant<br />Ouverture de portes<br />Transport de véhicule</p>
+      </div>
+      <div>
+        <p style="margin:0 0 12px;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:#7d93b2;font-weight:800">Zones</p>
+        <p style="margin:0;font-size:14.5px;line-height:1.9;color:#9db1cc">Paris 75 · 92 · 93 · 94<br />78 · 91 · 95 · 77<br />Périphérique, A1, A4, A86<br />Roissy CDG · Orly</p>
+      </div>
+    </div>
+    <div style="border-top:1px solid rgba(255,255,255,.09);padding:18px 20px 84px;text-align:center;font-size:13px;color:#7d93b2">© 2026 Dépanneur24 — Tous droits réservés · Disponible 24h/24, 7j/7</div>
+  </footer>
+
+  <div style="position:fixed;left:0;right:0;bottom:0;z-index:70;display:flex;gap:10px;padding:10px 12px;background:rgba(255,255,255,.96);backdrop-filter:blur(12px);border-top:1px solid oklch(0.47 0.17 258 / .18);box-shadow:0 -8px 24px rgba(10,26,47,.1)" data-mobile-bar>
+    <a href="tel:+33786345871" style="flex:2;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:52px;border-radius:13px;background:oklch(0.47 0.17 258);color:#fff;font-weight:800;font-size:16px">📞 Appeler</a>
+    <a href="https://wa.me/33786345871?text=Bonjour%2C%20j%27ai%20besoin%20d%27un%20d%C3%A9pannage" target="_blank" rel="noopener" style="flex:1;display:inline-flex;align-items:center;justify-content:center;min-height:52px;border-radius:13px;background:#25D366;color:#083a1c;font-weight:800;font-size:15px">💬 WhatsApp</a>
+    <a href="mailto:Yass@depanneur24.fr" style="flex:1;display:inline-flex;align-items:center;justify-content:center;min-height:52px;border-radius:13px;border:1.5px solid oklch(0.47 0.17 258 / .3);color:oklch(0.40 0.16 262);font-weight:700;font-size:15px">✉️</a>
+  </div>
+
+  <sc-if value="{{ zoom }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ closeZoom }}" style="position:fixed;inset:0;z-index:200;background:rgba(6,16,32,.93);backdrop-filter:blur(6px);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:clamp(12px,4vw,44px);gap:14px;animation:fadeUp .35s both;cursor:zoom-out">
+      <img ref="{{ zoomImgRef }}" alt="{{ zoom.alt }}" style="max-width:min(100%,1100px);max-height:78vh;border-radius:16px;box-shadow:0 40px 90px rgba(0,0,0,.6);object-fit:contain" />
+      <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap;justify-content:center;color:#fff">
+        <span style="font-size:15px;font-weight:700">{{ zoom.label }}</span>
+        <button type="button" onClick="{{ prevZoom }}" style="min-height:46px;padding:0 18px;border-radius:12px;border:1px solid rgba(255,255,255,.3);background:rgba(255,255,255,.1);color:#fff;font-weight:700;cursor:pointer">‹ Précédente</button>
+        <button type="button" onClick="{{ nextZoom }}" style="min-height:46px;padding:0 18px;border-radius:12px;border:1px solid rgba(255,255,255,.3);background:rgba(255,255,255,.1);color:#fff;font-weight:700;cursor:pointer">Suivante ›</button>
+        <button type="button" onClick="{{ closeZoom }}" style="min-height:46px;padding:0 20px;border-radius:12px;background:#fff;color:#0a1a2f;font-weight:800;cursor:pointer">Fermer ✕</button>
+      </div>
+    </div>
+  </sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;heroParallax&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Animations&quot;},&quot;showLiveStatus&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Animations&quot;},&quot;mapTheme&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;clair&quot;,&quot;sombre&quot;],&quot;default&quot;:&quot;clair&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Carte&quot;}}">
+const P = k => ({ src: 'photos/' + k + '-lg.jpg', set: 'photos/' + k + '-sm.jpg 680w, photos/' + k + '-lg.jpg 1100w' });
+const PH = {
+  day: P('c3'), night: P('kangoo'), buggy: P('buggy'),
+  nacelle: P('nacelle'), vito: P('vito'), troc: P('troc')
+};
+const VID = {
+  a: 'uploads/9c767499-621e-4459-992d-db53d9d3ae40.mp4',
+  b: 'uploads/613ae133-a49b-4109-bc34-c4cc3781cba4.mp4'
+};
+
+class Component extends DCLogic {
+  state = { navOpen: false, vehicle: 'voiture', symptom: null, zoomIdx: null, openFaq: 0, geoMsg: null };
+
+  componentDidMount() {
+    this.applyResponsive();
+    this._onResize = () => this.applyResponsive();
+    window.addEventListener('resize', this._onResize);
+
+    let raf = null;
+    this._cache = { t: 0, px: [], bar: null, head: null };
+    const nodes = () => {
+      const now = performance.now();
+      if (now - this._cache.t > 1200) {
+        this._cache.t = now;
+        this._cache.px = Array.from(document.querySelectorAll('[data-parallax]'));
+        this._cache.bar = document.querySelector('[data-progress]');
+        this._cache.head = document.querySelector('header');
+      }
+      return this._cache;
+    };
+    this._onScroll = () => {
+      if (raf) return;
+      raf = requestAnimationFrame(() => {
+        raf = null;
+        const C = nodes();
+        if (this.props.heroParallax === false) {
+          C.px.forEach(el => { el.style.transform = 'none'; });
+        } else
+        C.px.forEach(el => {
+          const f = parseFloat(el.getAttribute('data-parallax')) || 0;
+          const r = el.getBoundingClientRect();
+          if (r.bottom < -240 || r.top > window.innerHeight + 240) return;
+          const d = (window.innerHeight / 2 - r.top - r.height / 2) * -f;
+          el.style.transform = 'translate3d(0,' + d.toFixed(1) + 'px,0)';
+        });
+        const bar = C.bar;
+        if (bar) {
+          const h = document.documentElement.scrollHeight - window.innerHeight;
+          bar.style.width = (h > 0 ? Math.min(100, (window.scrollY / h) * 100) : 0) + '%';
+        }
+        const head = C.head;
+        if (head) {
+          const on = window.scrollY > 40;
+          head.style.transition = 'box-shadow .35s, padding .35s, background .35s';
+          head.style.boxShadow = on ? '0 10px 30px oklch(0.30 0.1 258 / .12)' : 'none';
+          head.style.background = on ? 'rgba(255,255,255,.96)' : 'rgba(255,255,255,.88)';
+        }
+      });
+    };
+    window.addEventListener('scroll', this._onScroll, { passive: true });
+    this._onScroll();
+
+    this._io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.style.opacity = '1'; e.target.style.transform = 'none'; this._io.unobserve(e.target); }
+    }), { threshold: 0.06, rootMargin: '0px 0px -5% 0px' });
+    this._watch = () => document.querySelectorAll('[data-reveal]').forEach(el => {
+      if (el.__w) return;
+      el.__w = 1;
+      const sibs = el.parentElement ? Array.prototype.filter.call(el.parentElement.children, c => c.hasAttribute && c.hasAttribute('data-reveal')) : [];
+      const i = sibs.indexOf(el);
+      if (i > 0) el.style.transitionDelay = Math.min(i * 90, 450) + 'ms';
+      this._io.observe(el);
+    });
+    this._watch();
+    this._watchTimer = setInterval(this._watch, 700);
+    setTimeout(() => {
+      clearInterval(this._watchTimer);
+      document.querySelectorAll('[data-reveal]').forEach(el => { el.style.opacity = '1'; el.style.transform = 'none'; });
+    }, 6000);
+
+    this._statsIo = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { this.countUp(e.target); this._statsIo.unobserve(e.target); }
+    }), { threshold: 0.4 });
+    setTimeout(() => document.querySelectorAll('[data-count]').forEach(el => this._statsIo.observe(el)), 300);
+
+    const msgs = ['Dépanneurs disponibles maintenant · 24h/24', '3 camions plateau en service en Île-de-France', 'Prochain créneau : immédiat · appel décroché en 1 min'];
+    let i = 0;
+    this._statusTimer = setInterval(() => {
+      const el = document.querySelector('[data-live-status]');
+      if (!el || this.props.showLiveStatus === false) return;
+      i = (i + 1) % msgs.length;
+      el.style.transition = 'opacity .3s';
+      el.style.opacity = '0';
+      setTimeout(() => { el.textContent = msgs[i]; el.style.opacity = '1'; }, 320);
+    }, 4200);
+
+    this._onPointer = e => {
+      if (window.innerWidth < 900 || this.props.heroParallax === false) return;
+      document.querySelectorAll('[data-tilt]').forEach(el => {
+        const r = el.getBoundingClientRect();
+        if (r.bottom < 0 || r.top > window.innerHeight) return;
+        const dx = (e.clientX - (r.left + r.width / 2)) / r.width;
+        const dy = (e.clientY - (r.top + r.height / 2)) / r.height;
+        el.style.transform = 'perspective(1000px) rotateY(' + (dx * 5).toFixed(2) + 'deg) rotateX(' + (-dy * 5).toFixed(2) + 'deg)';
+      });
+    };
+    window.addEventListener('pointermove', this._onPointer, { passive: true });
+
+    this._onKey = e => {
+      if (this.state.zoomIdx == null) return;
+      if (e.key === 'Escape') this.setState({ zoomIdx: null });
+      if (e.key === 'ArrowRight') this.step(1);
+      if (e.key === 'ArrowLeft') this.step(-1);
+    };
+    window.addEventListener('keydown', this._onKey);
+
+    document.documentElement.lang = 'fr';
+    if (!document.querySelector('meta[name="viewport"]')) {
+      const m = document.createElement('meta');
+      m.name = 'viewport';
+      m.content = 'width=device-width, initial-scale=1';
+      document.head.appendChild(m);
+    }
+    setTimeout(() => {
+      ['#realisations', '#avis', 'footer'].forEach(sel => {
+        const el = document.querySelector(sel);
+        if (el) { el.style.contentVisibility = 'auto'; el.style.containIntrinsicSize = 'auto 900px'; }
+      });
+    }, 800);
+
+    this._animIo = new IntersectionObserver(es => es.forEach(e => {
+      e.target.style.animationPlayState = e.isIntersecting ? 'running' : 'paused';
+    }), { rootMargin: '120px' });
+    setTimeout(() => {
+      document.querySelectorAll('section > div[style*="floatSlow"], [data-tilt] img, [style*="marquee"]').forEach(el => this._animIo.observe(el));
+    }, 500);
+
+    this.armMap();
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this._onScroll);
+    window.removeEventListener('resize', this._onResize);
+    window.removeEventListener('keydown', this._onKey);
+    window.removeEventListener('pointermove', this._onPointer);
+    clearInterval(this._statusTimer);
+    clearInterval(this._watchTimer);
+    if (this._io) this._io.disconnect();
+    if (this._statsIo) this._statsIo.disconnect();
+    (this._vidIos || []).forEach(io => io.disconnect());
+    if (this._animIo) this._animIo.disconnect();
+    if (this._map) { this._map.remove(); this._map = null; }
+  }
+
+  applyResponsive() {
+    const wide = window.innerWidth >= 900;
+    const q = s => document.querySelector(s);
+    const nav = q('[data-desktop-nav]'), burger = q('[data-burger]'), bar = q('[data-mobile-bar]'), tel = q('[data-tel-cta]');
+    if (nav) nav.style.display = wide ? 'flex' : 'none';
+    if (burger) burger.style.display = wide ? 'none' : 'grid';
+    if (bar) bar.style.display = wide ? 'none' : 'flex';
+    if (tel) { tel.style.display = window.innerWidth >= 560 ? 'inline-flex' : 'none'; tel.style.marginLeft = wide ? '0' : 'auto'; }
+    if (wide && this.state.navOpen) this.setState({ navOpen: false });
+    const heroImg = document.querySelector('[data-tilt] img');
+    if (heroImg) heroImg.style.animation = window.innerWidth < 760 ? 'none' : 'kenburns 22s ease-in-out infinite alternate';
+    if (!wide) document.querySelectorAll('[data-tilt]').forEach(el => { el.style.transform = 'none'; });
+  }
+
+  countUp(el) {
+    const target = parseFloat(el.getAttribute('data-count')) || 0;
+    const dur = 1400, t0 = performance.now();
+    const tick = now => {
+      const p = Math.min(1, (now - t0) / dur);
+      const v = Math.round(target * (1 - Math.pow(1 - p, 3)));
+      el.textContent = v >= 1000 ? v.toLocaleString('fr-FR') : String(v);
+      if (p < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  }
+
+  step(dir) {
+    const n = 6;
+    this.setState(s => ({ zoomIdx: s.zoomIdx == null ? null : (s.zoomIdx + dir + n) % n }));
+  }
+
+  loadLeaflet() {
+    if (window.L) return Promise.resolve();
+    if (this._leafletP) return this._leafletP;
+    this._leafletP = new Promise(res => {
+      const css = document.createElement('link');
+      css.rel = 'stylesheet';
+      css.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+      document.head.appendChild(css);
+      const js = document.createElement('script');
+      js.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+      js.async = true;
+      js.onload = () => res();
+      js.onerror = () => res();
+      document.head.appendChild(js);
+    });
+    return this._leafletP;
+  }
+
+  armMap(tries) {
+    tries = tries || 0;
+    if (!this._mapEl) { if (tries < 80) setTimeout(() => this.armMap(tries + 1), 200); return; }
+    if (this._armed) return;
+    this._armed = 1;
+    const io = new IntersectionObserver(es => {
+      if (es.some(e => e.isIntersecting)) {
+        io.disconnect();
+        this.loadLeaflet().then(() => this.initMap());
+      }
+    }, { rootMargin: '500px 0px' });
+    io.observe(this._mapEl);
+  }
+
+  initMap(tries) {
+    tries = tries || 0;
+    if (tries > 80) return;
+    if (!window.L || !this._mapEl || this._map) return setTimeout(() => this.initMap(tries + 1), 200);
+    const L = window.L;
+    const map = L.map(this._mapEl, { scrollWheelZoom: false, zoomControl: true });
+    this._map = map;
+    const tiles = this.props.mapTheme === 'sombre'
+      ? 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png'
+      : 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png';
+    L.tileLayer(tiles, { maxZoom: 19, subdomains: 'abcd', attribution: '&copy; OpenStreetMap &copy; CARTO' }).addTo(map);
+    const blue = '#1d4ed8';
+    L.circle([48.8566, 2.3522], { radius: 35000, color: blue, weight: 1.5, opacity: .5, fillColor: blue, fillOpacity: .07 }).addTo(map);
+    this._pts = {
+      '75': ['Paris (75)', 48.8566, 2.3522, '20-30 min', 10],
+      '92': ['Hauts-de-Seine (92)', 48.8918, 2.238, '25-35 min', 7],
+      '93': ['Seine-Saint-Denis (93)', 48.9106, 2.4397, '25-40 min', 7],
+      '94': ['Val-de-Marne (94)', 48.7904, 2.4556, '25-40 min', 7],
+      '78': ['Yvelines (78)', 48.8049, 2.1204, '30-45 min', 7],
+      '91': ['Essonne (91) · Lisses, Évry', 48.6167, 2.4139, '30-45 min', 7],
+      '95': ["Val-d'Oise (95)", 49.0369, 2.0631, '35-50 min', 7],
+      '77': ['Seine-et-Marne (77)', 48.5392, 2.66, '40-60 min', 7],
+      cdg: ['Aéroport Roissy CDG', 49.0097, 2.5479, '30-45 min', 6],
+      ory: ['Aéroport Orly', 48.7233, 2.3794, '25-40 min', 6]
+    };
+    Object.keys(this._pts).forEach(k => {
+      const p = this._pts[k];
+      const m = L.circleMarker([p[1], p[2]], { radius: p[4], color: '#fff', weight: 2.5, fillColor: blue, fillOpacity: .95 }).addTo(map);
+      m.bindPopup('<strong style="font-family:Space Grotesk,sans-serif;font-size:15px">' + p[0] + '</strong><br/><span style="color:#1d4ed8;font-weight:700">Délai moyen : ' + p[3] + '</span><br/><a href="tel:+33786345871" style="color:#1d4ed8;font-weight:800">Appeler 07 86 34 58 71</a>');
+      m.on('mouseover', () => m.setStyle({ radius: p[4] + 4 }));
+      m.on('mouseout', () => m.setStyle({ radius: p[4] }));
+      p[5] = m;
+    });
+    L.marker([48.8566, 2.3522], {
+      icon: L.divIcon({ className: '', iconSize: [18, 18], iconAnchor: [9, 9], html: '<div class="d24-map-pulse" style="width:18px;height:18px;border:3px solid #fff"></div>' })
+    }).addTo(map).bindPopup('<strong style="font-family:Space Grotesk,sans-serif;font-size:15px">Paris — base d\'intervention</strong><br/><span style="color:#1d4ed8;font-weight:700">Camions en service 24h/24</span>');
+    map.fitBounds(L.latLngBounds([[48.42, 1.72], [49.18, 3.1]]), { padding: [24, 24] });
+    setTimeout(() => map.invalidateSize(), 400);
+  }
+
+  flyTo(code) {
+    const p = this._pts && this._pts[code];
+    if (!p || !this._map) return;
+    this._map.flyTo([p[1], p[2]], 11, { duration: 1.1 });
+    if (p[5]) setTimeout(() => p[5].openPopup(), 900);
+  }
+
+  locate() {
+    if (!navigator.geolocation) return this.setState({ geoMsg: "La géolocalisation n'est pas disponible sur cet appareil. Appelez le 07 86 34 58 71 et indiquez votre adresse." });
+    this.loadLeaflet().then(() => this.initMap());
+    this.setState({ geoMsg: 'Localisation en cours…' });
+    navigator.geolocation.getCurrentPosition(pos => {
+      const lat = pos.coords.latitude, lon = pos.coords.longitude;
+      if (this._map && window.L) {
+        const L = window.L;
+        if (this._me) this._map.removeLayer(this._me);
+        this._me = L.layerGroup([
+          L.circle([lat, lon], { radius: 400, color: '#1d4ed8', weight: 1, fillColor: '#1d4ed8', fillOpacity: .18 }),
+          L.circleMarker([lat, lon], { radius: 9, color: '#fff', weight: 3, fillColor: '#e11d48', fillOpacity: 1 })
+            .bindPopup('<strong>Vous êtes ici</strong><br/><a href="tel:+33786345871" style="color:#1d4ed8;font-weight:800">Appeler le dépanneur</a>')
+        ]).addTo(this._map);
+        this._map.flyTo([lat, lon], 13, { duration: 1.2 });
+      }
+      const c = lat.toFixed(5) + ', ' + lon.toFixed(5);
+      this._coords = c;
+      this.setState({ geoMsg: 'Position détectée : ' + c + ' — envoyez-la nous par WhatsApp (wa.me/33786345871) ou dictez-la au téléphone, le camion part avec les coordonnées exactes.' });
+    }, () => {
+      this.setState({ geoMsg: "Position refusée par le navigateur. Pas de souci : appelez le 07 86 34 58 71, nous vous localisons ensemble." });
+    }, { enableHighAccuracy: true, timeout: 9000 });
+  }
+
+  renderVals() {
+    const S = s => this.setState(s);
+    const symptoms = [
+      { id: 'demarre', label: 'Ne démarre pas', title: 'Dépannage sur place — démarrage & test batterie', text: 'Nous arrivons avec booster et testeur : dans 7 cas sur 10 le véhicule repart sur place. Sinon, remorquage vers le garage de votre choix.', eta: '20 à 35 min', mode: 'Camion atelier' },
+      { id: 'batterie', label: 'Batterie à plat', title: 'Démarrage assisté + remplacement batterie', text: 'Booster professionnel, contrôle de l’alternateur et batterie neuve posée sur place si nécessaire.', eta: '20 à 30 min', mode: 'Camion atelier' },
+      { id: 'pneu', label: 'Pneu crevé', title: 'Changement de roue ou remorquage', text: 'Pose de la roue de secours ou kit anti-crevaison. Sans roue de secours, nous vous emmenons chez le réparateur le plus proche.', eta: '25 à 40 min', mode: 'Camion atelier' },
+      { id: 'carburant', label: 'Panne de carburant', title: 'Livraison de carburant', text: 'Apport de 5 à 10 L d’essence, diesel ou AdBlue directement sur place.', eta: '25 à 40 min', mode: 'Véhicule léger' },
+      { id: 'accident', label: 'Accident / immobilisé', title: 'Remorquage plateau sécurisé', text: 'Camion plateau, balisage, véhicule chargé et assuré pendant tout le transport vers votre garage, domicile ou expert.', eta: '25 à 45 min', mode: 'Camion plateau' },
+      { id: 'cles', label: 'Clés enfermées / perdues', title: 'Ouverture de véhicule sans dégât', text: 'Ouverture non destructive par technicien équipé, sur justificatif de propriété du véhicule.', eta: '30 à 45 min', mode: 'Technicien' },
+      { id: 'surchauffe', label: 'Surchauffe / fumée', title: 'Remorquage immédiat — ne roulez plus', text: 'Coupez le moteur et sortez du véhicule. Un moteur en surchauffe ne doit pas rouler : nous le transportons sur plateau.', eta: '25 à 40 min', mode: 'Camion plateau' },
+      { id: 'boite', label: 'Boîte / embrayage', title: 'Remorquage vers garage', text: 'Chargement sur plateau roues libres ou avec chariots, adapté aux boîtes automatiques et 4 roues motrices.', eta: '30 à 45 min', mode: 'Camion plateau' },
+      { id: 'moto', label: 'Moto au sol / HS', title: 'Transport moto sur rampe et sangles', text: 'Rampe antidérapante, sangles à cliquet et cales de roue : transport moto ou scooter sans rayure.', eta: '30 à 45 min', mode: 'Plateau moto' },
+      { id: 'poids', label: 'Camion / utilitaire en panne', title: 'Dépannage utilitaire & poids lourd léger', text: 'Camions jusqu’à 3,5 t sur plateau, au-delà intervention avec matériel lourd et accompagnement du chauffeur.', eta: '40 à 60 min', mode: 'Plateau lourd' },
+      { id: 'engin', label: 'Quad / buggy / engin', title: 'Transport d’engin de loisir ou de chantier', text: 'Quad, buggy, SSV, mini-pelle : treuil, sangles quatre points et plateau adapté, comme sur nos interventions récentes.', eta: '40 à 60 min', mode: 'Plateau treuil' }
+    ];
+    const vehicleDefs = [
+      { id: 'voiture', label: 'Voiture', icon: '🚗' },
+      { id: 'moto', label: 'Moto', icon: '🏍️' },
+      { id: 'camion', label: 'Camion', icon: '🚚' },
+      { id: 'engin', label: 'Engin', icon: '🛻' }
+    ];
+    const selBtn = on => 'display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;min-height:86px;padding:12px;border-radius:16px;cursor:pointer;font-family:Manrope,sans-serif;transition:all .25s;' +
+      (on ? 'border:1.5px solid transparent;background:oklch(0.47 0.17 258);color:#fff;box-shadow:0 12px 28px oklch(0.47 0.17 258 / .3)'
+          : 'border:1.5px solid oklch(0.47 0.17 258 / .2);background:#f4f8fd;color:#0a1a2f');
+    const chip = on => 'min-height:44px;padding:0 15px;border-radius:12px;cursor:pointer;font-size:14px;font-weight:700;font-family:Manrope,sans-serif;transition:all .22s;' +
+      (on ? 'border:1.5px solid transparent;background:oklch(0.47 0.17 258);color:#fff'
+          : 'border:1.5px solid oklch(0.47 0.17 258 / .2);background:#fff;color:#26364c');
+
+    const cur = symptoms.find(s => s.id === this.state.symptom) || null;
+    const vLabel = (vehicleDefs.find(v => v.id === this.state.vehicle) || vehicleDefs[0]).label;
+    const body = cur ? 'Bonjour,\n\nVéhicule : ' + vLabel + '\nProblème : ' + cur.label + '\nAdresse exacte : \nVille / département : \nTéléphone : \n\nMerci de me rappeler.' : '';
+    const diag = cur ? {
+      title: cur.title, text: cur.text, eta: 'Arrivée estimée ' + cur.eta, mode: cur.mode,
+      mailto: 'mailto:Yass@depanneur24.fr?subject=' + encodeURIComponent('Dépannage ' + vLabel + ' — ' + cur.label) + '&body=' + encodeURIComponent(body),
+      wa: 'https://wa.me/33786345871?text=' + encodeURIComponent('Bonjour, dépannage ' + vLabel + ' : ' + cur.label + '. Je suis à ')
+    } : null;
+
+    const gallery = [
+      { ph: PH.day, pos: 'center 45%', label: 'Remorquage Citroën C3', sub: 'Plateau · Île-de-France', alt: 'Citroën C3 blanche chargée sur le camion plateau Dépanneur24 en Île-de-France' },
+      { ph: PH.troc, pos: 'center 55%', label: 'Volkswagen T-Roc', sub: 'SUV chargé et sanglé', alt: 'Volkswagen T-Roc noir chargé sur le plateau Dépanneur24' },
+      { ph: PH.night, pos: 'center 55%', label: 'Intervention de nuit — Lisses (91)', sub: 'Utilitaire Kangoo · 21h37', alt: 'Renault Kangoo utilitaire remorqué de nuit à Lisses dans l’Essonne par Dépanneur24' },
+      { ph: PH.vito, pos: 'center 50%', label: 'Mercedes Vito / Classe V', sub: 'Van 8 places transporté', alt: 'Mercedes Vito gris chargé sur le camion plateau Dépanneur24' },
+      { ph: PH.nacelle, pos: 'center 50%', label: 'Utilitaire nacelle Klubb', sub: 'Véhicule de chantier surélevé', alt: 'Utilitaire équipé d’une nacelle Klubb transporté sur plateau par Dépanneur24' },
+      { ph: PH.buggy, pos: 'center 50%', label: 'Buggy Polaris RZR', sub: 'Treuil et sangles 4 points', alt: 'Buggy Polaris RZR sanglé sur le plateau bleu Dépanneur24' }
+    ];
+    const faqData = [
+      { q: 'Intervenez-vous vraiment 24h/24 et 7j/7 ?', a: 'Oui. Nos équipes tournent en permanence, nuits, week-ends et jours fériés inclus. Un appel au 07 86 34 58 71 est décroché en moins d’une minute.' },
+      { q: 'Quel est le délai d’arrivée moyen ?', a: 'Environ 30 minutes dans Paris et la petite couronne, 35 à 60 minutes en grande couronne selon le trafic. Le délai exact vous est confirmé au téléphone.' },
+      { q: 'Prenez-vous en charge motos, camions et engins ?', a: 'Oui : voitures, motos et scooters, utilitaires et camions jusqu’à 3,5 t, ainsi que quads, buggys et SSV grâce au treuil et aux sangles quatre points.' },
+      { q: 'Comment se passe le tarif ?', a: 'Le tarif est annoncé avant l’intervention, selon le type de véhicule, la distance et l’heure. Aucun frais surprise, facture remise systématiquement.' },
+      { q: 'Puis-je être dépanné sur autoroute ou périphérique ?', a: 'Sur autoroute et voie rapide concédée, la réglementation impose l’appel aux secours. Nous prenons le relais dès la sortie de la zone et intervenons sur toutes les voies non concédées, dont le périphérique selon la situation.' },
+      { q: 'Le véhicule est-il assuré pendant le transport ?', a: 'Oui, tous nos transports sont couverts par notre assurance professionnelle, du chargement à la livraison au garage, à votre domicile ou chez l’expert.' }
+    ];
+
+    return {
+      navOpen: this.state.navOpen,
+      toggleNav: () => S({ navOpen: !this.state.navOpen }),
+      closeNav: () => S({ navOpen: false }),
+      mapRef: el => { this._mapEl = el; },
+      mapsLink: 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent('dépannage remorquage Île-de-France'),
+      locate: () => this.locate(),
+      geoMsg: this.state.geoMsg,
+      videos: [
+        { src: VID.a, label: 'Chargement sur plateau — en direct' },
+        { src: VID.b, label: 'Sanglage et sécurisation' }
+      ].map(v => ({
+        label: v.label,
+        ref: el => {
+          if (!el || el.__init) return;
+          el.__init = 1;
+          el.muted = true; el.defaultMuted = true; el.playsInline = true; el.loop = true;
+          el.addEventListener('ended', () => { el.currentTime = 0; el.play().catch(() => {}); });
+          const overlay = () => el.parentElement && el.parentElement.querySelector('[data-play]');
+          el.addEventListener('playing', () => { const o = overlay(); if (o) o.style.display = 'none'; });
+          el.addEventListener('pause', () => { const o = overlay(); if (o && el.currentTime > 0.2) o.style.display = 'grid'; });
+          const conn = navigator.connection || {};
+          const light = window.innerWidth < 760 || conn.saveData === true || /2g|slow-2g/.test(conn.effectiveType || '');
+          const io = new IntersectionObserver(es => es.forEach(e => {
+            if (e.isIntersecting) {
+              if (!el.src) el.src = v.src;
+              if (!light) el.play().catch(() => {});
+            } else if (!el.paused) el.pause();
+          }), { threshold: 0.35 });
+          io.observe(el);
+          this._vidIos = this._vidIos || [];
+          this._vidIos.push(io);
+        },
+        onTap: e => {
+          const fig = e.currentTarget.closest('figure');
+          const el = fig && fig.querySelector('video');
+          if (!el) return;
+          el.muted = true;
+          if (!el.src) el.src = v.src;
+          if (el.paused) el.play().catch(() => {}); else el.pause();
+        }
+      })),
+      zoomImgRef: el => {
+        if (!el) return;
+        const g = this.state.zoomIdx == null ? null : gallery[this.state.zoomIdx];
+        if (g && el.getAttribute('src') !== g.ph.src) el.src = g.ph.src;
+      },
+      vehicles: [
+        { ph: PH.troc, pos: 'center 50%', badge: 'Auto', title: 'Voiture, SUV & citadine', text: 'Panne, batterie, crevaison, accident ou véhicule non roulant : dépannage sur place ou remorquage plateau vers le garage de votre choix.', alt: 'Volkswagen T-Roc chargé sur le plateau Dépanneur24', tags: ['Toutes marques', 'Électrique & hybride', 'Boîte auto'] },
+        { ph: PH.nacelle, pos: 'center 50%', badge: 'Utilitaire', title: 'Camion & utilitaire', text: 'Utilitaires et camions jusqu’à 3,5 t, fourgons aménagés, véhicules à nacelle et flottes professionnelles, de jour comme de nuit.', alt: 'Utilitaire à nacelle Klubb transporté sur plateau', tags: ['Jusqu’à 3,5 t', 'Flottes pro', 'Nuit & week-end'] },
+        { ph: PH.buggy, pos: 'center 45%', badge: 'Moto & engins', title: 'Moto, quad & engins', text: 'Rampe antidérapante, treuil et sangles à cliquet : deux-roues, quads, buggys et SSV transportés sans une rayure.', alt: 'Buggy Polaris RZR sanglé sur un plateau bleu', tags: ['Rampe dédiée', 'Treuil', 'Quad & SSV'] }
+      ],
+      services: [
+        { n: '01', title: 'Remorquage plateau', text: 'Vers le garage de votre choix, votre domicile ou l’expert, partout en Île-de-France.' },
+        { n: '02', title: 'Démarrage & batterie', text: 'Booster pro, test de charge et batterie neuve posée sur place.' },
+        { n: '03', title: 'Crevaison', text: 'Roue de secours, kit anti-crevaison ou transport chez le réparateur.' },
+        { n: '04', title: 'Panne de carburant', text: 'Livraison essence, diesel ou AdBlue directement sur place.' },
+        { n: '05', title: 'Ouverture de véhicule', text: 'Clés enfermées ou perdues : ouverture sans dégât par technicien équipé.' },
+        { n: '06', title: 'Transport de véhicule', text: 'Achat/vente, véhicule non roulant, longue distance : transport sécurisé.' },
+        { n: '07', title: 'Sortie de parking', text: 'Véhicule bloqué en sous-sol, hauteur limitée : matériel adapté aux parkings.' },
+        { n: '08', title: 'Assistance entreprise', text: 'Contrats flottes, VTC, artisans : ligne prioritaire et facturation mensuelle.' }
+      ],
+      vehicleChoices: vehicleDefs.map(v => ({ ...v, style: selBtn(this.state.vehicle === v.id), onSelect: () => S({ vehicle: v.id }) })),
+      symptomChoices: symptoms.map(s => ({ label: s.label, style: chip(this.state.symptom === s.id), onSelect: () => S({ symptom: s.id }) })),
+      diag,
+      departments: [
+        { code: '75', name: 'Paris', eta: '20-30 min' },
+        { code: '92', name: 'Hauts-de-Seine', eta: '25-35 min' },
+        { code: '93', name: 'Seine-Saint-Denis', eta: '25-40 min' },
+        { code: '94', name: 'Val-de-Marne', eta: '25-40 min' },
+        { code: '78', name: 'Yvelines', eta: '30-45 min' },
+        { code: '91', name: 'Essonne', eta: '30-45 min' },
+        { code: '95', name: "Val-d'Oise", eta: '35-50 min' },
+        { code: '77', name: 'Seine-et-Marne', eta: '40-60 min' }
+      ].map(d => ({ ...d, onFly: () => this.flyTo(d.code) })),
+      gallery: gallery.map((g, i) => ({ ...g, onZoom: () => S({ zoomIdx: i }) })),
+      zoom: this.state.zoomIdx == null ? null : gallery[this.state.zoomIdx],
+      closeZoom: () => S({ zoomIdx: null }),
+      nextZoom: () => this.step(1),
+      prevZoom: () => this.step(-1),
+      steps: [
+        { n: '1', title: 'Vous appelez', text: 'Un dépanneur décroche, note votre position exacte et le véhicule concerné.' },
+        { n: '2', title: 'Tarif annoncé', text: 'Délai et prix confirmés avant le départ du camion. Pas de surprise.' },
+        { n: '3', title: 'On arrive', text: '30 min en moyenne. Balisage, sécurisation, dépannage ou chargement.' },
+        { n: '4', title: 'Livraison', text: 'Véhicule déposé au garage, chez vous ou chez l’expert. Facture remise.' }
+      ],
+      reviews: [
+        { initial: 'S', name: 'Sofiane B.', city: 'Paris 19e', text: 'Batterie morte à 2 h du matin devant chez moi. Rappel immédiat, camion sur place en 22 minutes, repartie sans souci. Très pro.' },
+        { initial: 'M', name: 'Marion L.', city: 'Boulogne-Billancourt', text: 'Ma moto est tombée en panne sur le pont. Ils sont venus avec la rampe et les sangles, pas une rayure. Tarif annoncé et respecté.' },
+        { initial: 'K', name: 'Karim T.', city: 'Lisses (91)', text: 'Utilitaire de chantier HS un vendredi soir. Remorqué jusqu’à mon garage, facture claire pour l’entreprise. Je garde le numéro.' }
+      ],
+      faqs: faqData.map((f, i) => ({
+        q: f.q, a: f.a,
+        open: this.state.openFaq === i,
+        sign: this.state.openFaq === i ? '−' : '+',
+        onToggle: () => S({ openFaq: this.state.openFaq === i ? null : i })
+      }))
+    };
+  }
+}
+</script>
+</body>
+</html>
