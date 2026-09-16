@@ -21,12 +21,17 @@
 <meta name="twitter:image" content="https://www.depanneur24.fr/photos/og-depanneur24.jpg">
 <link rel="apple-touch-icon" sizes="180x180" href="photos/logo-180.png">
 <link rel="icon" type="image/png" sizes="512x512" href="photos/logo-512.png">
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18441315964"></script>
 <script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'AW-18441315964');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-18441315964');
+</script>
+<!-- Event snippet for Contact conversion : déclenché au clic Appel / WhatsApp / E-mail -->
+<script>
 document.addEventListener('click', function (e) {
   var a = e.target && e.target.closest ? e.target.closest('a[href]') : null;
   if (!a) return;
