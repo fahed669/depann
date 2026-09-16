@@ -21,6 +21,22 @@
 <meta name="twitter:image" content="https://www.depanneur24.fr/photos/og-depanneur24.jpg">
 <link rel="apple-touch-icon" sizes="180x180" href="photos/logo-180.png">
 <link rel="icon" type="image/png" sizes="512x512" href="photos/logo-512.png">
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18441315964"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'AW-18441315964');
+document.addEventListener('click', function (e) {
+  var a = e.target && e.target.closest ? e.target.closest('a[href]') : null;
+  if (!a) return;
+  var h = a.getAttribute('href') || '';
+  var kind = /^tel:/i.test(h) ? 'appel' : /^mailto:/i.test(h) ? 'email' : /wa\.me|whatsapp/i.test(h) ? 'whatsapp' : null;
+  if (!kind) return;
+  gtag('event', 'conversion', { send_to: 'AW-18441315964/0j_ZCICUmvkcEPzMwNlE', event_callback: function () {} });
+  gtag('event', 'contact', { method: kind });
+}, true);
+</script>
 <script src="./support.js"></script>
 </head>
 <body>
@@ -157,7 +173,7 @@
           <span style="width:8px;height:8px;border-radius:50%;background:oklch(0.58 0.17 150);animation:pulseRing 2s infinite"></span>
           <span data-live-status key="{{ statusIdx }}" style="animation:fadeUp .45s both">{{ statusText }}</span>
         </div>
-        <h1 style="margin:20px 0 0;font-family:'Space Grotesk',sans-serif;font-weight:700;letter-spacing:-.035em;line-height:1;font-size:clamp(38px,6.6vw,74px);animation:fadeUp .8s .12s both">
+        <h1 style="margin:20px 0 0;font-family:'Space Grotesk',sans-serif;font-weight:700;letter-spacing:-.035em;line-height:1.08;font-size:clamp(38px,6.6vw,74px);text-wrap:pretty;animation:fadeUp .8s .12s both">
           Dépannage &amp; remorquage <span style="background:linear-gradient(100deg,oklch(0.52 0.18 258),oklch(0.62 0.15 232));-webkit-background-clip:text;background-clip:text;color:transparent">en 30 minutes</span> en Île-de-France
         </h1>
         <p style="margin:22px 0 0;max-width:54ch;font-size:clamp(16px,2vw,19.5px);line-height:1.65;color:#3b4b60;animation:fadeUp .8s .2s both">
